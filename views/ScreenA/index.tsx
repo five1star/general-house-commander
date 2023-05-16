@@ -1,12 +1,9 @@
-import { NavigationContainer } from "@react-navigation/native";
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 
 export default function ScreenA() {
   return (
     <View style={styles.container}>
       <Text>캬캬</Text>
-      {/* <StatusBar style="auto" /> */}
     </View>
   );
 }
